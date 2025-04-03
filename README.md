@@ -1,31 +1,32 @@
-Bookshop Management System
+#Bookshop Management System
 
-Introduction
+#Introduction
 
 The Bookshop Management System is a C++ console-based application designed to efficiently manage book inventory in a bookstore. It enables users to add, view, modify, delete, and purchase books, ensuring smooth transactions. The system utilizes file handling to maintain persistent data, ensuring that book records are retained even after the program is closed.
 
-Objective
+#Objective
 
-The primary objective of this project is to develop a user-friendly and efficient book management system that streamlines bookstore operations. This system facilitates:
+1)-The primary objective of this project is to develop a user-friendly and efficient book management system that streamlines bookstore operations. This system facilitates:
 
-Efficient book tracking
+2)-Efficient book tracking
 
-Quick modifications
+3)-uick modifications
 
-Seamless purchasing process
+4)-Seamless purchasing process
 
-Features
+#Features
 
-✅ Add New Books – Users can enter book details, including ID, title, author, and price.
-✅ Display Books – View all available books in a structured format.
-✅ Modify Book Details – Update title, author, or price based on the Book ID.
-✅ Delete Books – Remove books from the system using their ID.
-✅ Purchase Books – Customers can buy books, which are then removed from the store's inventory.
-✅ Persistent Data Storage – Uses file handling to store book records, preventing data loss.
+✅ Add New Books – Users can enter book details, including ID, title, author, and price.<br>
 
-Technology Used
+✅ Display Books – View all available books in a structured format.<br>
+✅ Modify Book Details – Update title, author, or price based on the Book ID.<br>
+✅ Delete Books – Remove books from the system using their ID.<br>
+✅ Purchase Books – Customers can buy books, which are then removed from the store's inventory.<br>
+✅ Persistent Data Storage – Uses file handling to store book records, preventing data loss.<br>
 
-Programming Language: C++
+#Technology Used
+
+- Programming Language: C++
 
 Key Concepts Implemented:
 
@@ -37,23 +38,22 @@ Vectors: Dynamic book storage
 
 Input/Output Handling: User-friendly interaction
 
-System Workflow
+#System Workflow
+-Main Menu – Users select different options (add, modify, display, delete, or purchase books).
 
-Main Menu – Users select different options (add, modify, display, delete, or purchase books).
+-Adding Books – Users enter book details, which are stored in a file.
 
-Adding Books – Users enter book details, which are stored in a file.
+-Displaying Books – Lists all books in a tabular format.
 
-Displaying Books – Lists all books in a tabular format.
+-Modifying Books – Allows searching for a book by ID and updating its details.
 
-Modifying Books – Allows searching for a book by ID and updating its details.
+-Deleting Books – Removes a book from the system using its ID.
 
-Deleting Books – Removes a book from the system using its ID.
+-Buying Books – Simulates a purchase by entering the Book ID, removing it from the inventory.
 
-Buying Books – Simulates a purchase by entering the Book ID, removing it from the inventory.
+-Exit – Safely closes the application, ensuring all data remains stored.
 
-Exit – Safely closes the application, ensuring all data remains stored.
-
-How to Use
+#How to Use
 
 Run the program using a C++ compiler.
 
