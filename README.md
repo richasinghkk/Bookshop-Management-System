@@ -1,42 +1,64 @@
-# Bookshop-Management-System
+Bookshop Management System
+
 Introduction
-The Bookshop Management System is a C++ console-based application designed to efficiently manage books in a bookstore. It allows users to add, display, modify, delete, and purchase books, ensuring smooth book transactions. The system maintains a record of books using file handling, ensuring that data is persistent even after the program is closed.
+
+The Bookshop Management System is a C++ console-based application designed to efficiently manage book inventory in a bookstore. It enables users to add, view, modify, delete, and purchase books, ensuring smooth transactions. The system utilizes file handling to maintain persistent data, ensuring that book records are retained even after the program is closed.
 
 Objective
-The main objective of this project is to create a simple yet effective book management system that provides an easy-to-use interface for customers and administrators. This system enhances bookshop operations by enabling efficient book tracking, quick modifications, and a seamless purchasing process.
+
+The primary objective of this project is to develop a user-friendly and efficient book management system that streamlines bookstore operations. This system facilitates:
+
+Efficient book tracking
+
+Quick modifications
+
+Seamless purchasing process
 
 Features
-✔ Add New Books – Users can enter book details, including ID, title, author, and price.
-✔ Display Books – View all available books in a structured format.
-✔ Modify Book Details – Update book title, author, or price based on Book ID.
-✔ Delete Books – Remove a book from the system using its ID.
-✔ Buy Books – Customers can purchase books, removing them from the store's list.
-✔ Persistent Data Storage – Uses file handling to store book records, preventing data loss.
+
+✅ Add New Books – Users can enter book details, including ID, title, author, and price.
+✅ Display Books – View all available books in a structured format.
+✅ Modify Book Details – Update title, author, or price based on the Book ID.
+✅ Delete Books – Remove books from the system using their ID.
+✅ Purchase Books – Customers can buy books, which are then removed from the store's inventory.
+✅ Persistent Data Storage – Uses file handling to store book records, preventing data loss.
 
 Technology Used
+
 Programming Language: C++
 
-Concepts Used:
+Key Concepts Implemented:
 
-Object-Oriented Programming (OOP) – Classes, Objects, Encapsulation
+Object-Oriented Programming (OOP): Classes, Objects, Encapsulation
 
-File Handling – Storing and retrieving book data from files
+File Handling: Storing and retrieving book data from files
 
-Vectors – Dynamic book storage
+Vectors: Dynamic book storage
 
-Input/Output Handling – User-friendly interaction
+Input/Output Handling: User-friendly interaction
 
-Working of the System
-Main Menu – Users can choose different options (add, modify, display, delete, buy books).
+System Workflow
 
-Adding Books – Enter book details, which are stored in a file.
+Main Menu – Users select different options (add, modify, display, delete, or purchase books).
 
-Displaying Books – List all books in a tabular format.
+Adding Books – Users enter book details, which are stored in a file.
 
-Modifying Books – Search for a book by ID and update its details.
+Displaying Books – Lists all books in a tabular format.
 
-Deleting Books – Remove books from the system by ID.
+Modifying Books – Allows searching for a book by ID and updating its details.
 
-Buying Books – Enter Book ID to simulate a purchase and remove it from the list.
+Deleting Books – Removes a book from the system using its ID.
 
-Exit – Safely close the application.
+Buying Books – Simulates a purchase by entering the Book ID, removing it from the inventory.
+
+Exit – Safely closes the application, ensuring all data remains stored.
+
+How to Use
+
+Run the program using a C++ compiler.
+
+Choose an option from the Main Menu.
+
+Follow the on-screen instructions to add, modify, delete, or buy books.
+
+The system automatically updates the file to maintain records.
