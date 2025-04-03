@@ -1,4 +1,4 @@
-📚 Bookshop Management System
+<b>📚 Bookshop Management System
 📌 Project Overview
 The Bookshop Management System is a console-based C++ application designed to manage book records efficiently. It allows users to add, display, modify, delete, and purchase books while ensuring persistent data storage using file handling. This project helps in managing book inventory for a bookshop with a user-friendly interface.
 
