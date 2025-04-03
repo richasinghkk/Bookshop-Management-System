@@ -1,53 +1,43 @@
-<b>📚 Bookshop Management System
-📌 Project Overview
-The Bookshop Management System is a console-based C++ application designed to manage book records efficiently. It allows users to add, display, modify, delete, and purchase books while ensuring persistent data storage using file handling. This project helps in managing book inventory for a bookshop with a user-friendly interface.
+# 📚 Bookshop Management System
 
-🚀 Features
-📖 Add New Books – Store book details such as title, author, price, and pages.
+## 📌 Project Overview
+The **Bookshop Management System** is a console-based C++ application designed to manage book records efficiently. It allows users to **add, display, modify, delete, and purchase books** while ensuring **persistent data storage** using file handling. This project helps in managing book inventory for a bookshop with a user-friendly interface.
 
-📌 Modify Book Details – Update book information based on the Book ID.
+## 🚀 Features
+- 📖 **Add New Books** – Store book details such as title, author, price, and pages.
+- 📌 **Modify Book Details** – Update book information based on the Book ID.
+- ❌ **Delete Books** – Remove books from the system.
+- 🔍 **Display Books** – View the list of all available books.
+- 🛒 **Buy Books** – Simulate book purchases by removing them from the store.
+- 💾 **Persistent Storage** – Uses file handling to save book data permanently.
 
-❌ Delete Books – Remove books from the system.
+## 🛠 Tech Stack
+- **Programming Language:** C++
+- **Concepts Used:**
+  - Object-Oriented Programming (OOP) – Classes, Objects, Encapsulation
+  - File Handling – Reading/Writing book records in files
+  - Data Structures – Arrays/Vectors for book storage
+  - Input/Output Handling – Console-based user interaction
 
-🔍 Display Books – View the list of all available books.
-
-🛒 Buy Books – Simulate book purchases by removing them from the store.
-
-💾 Persistent Storage – Uses file handling to save book data permanently.
-
-🛠 Tech Stack
-Programming Language: C++
-
-Concepts Used:
-
-Object-Oriented Programming (OOP) – Classes, Objects, Encapsulation
-
-File Handling – Reading/Writing book records in files
-
-Data Structures – Arrays/Vectors for book storage
-
-Input/Output Handling – Console-based user interaction
-
-📂 Project Structure
-perl
-Copy
-Edit
-📁 bookshop-management-system  
-│-- 📁 src  
-│   ├── main.cpp          # Main program file  
-│   ├── bookshop.h        # Header file for bookshop class  
-│-- 📁 data  
-│   ├── books.txt         # File storing book records  
-│-- 📄 README.md          # Project documentation  
-│-- 📄 Makefile           # Compilation script (if applicable)  
-🔧 Installation & Setup
-Clone the repository
+## 📂 Project Structure
+📁 bookshop-management-system
+│-- 📁 src
+│ ├── main.cpp # Main program file
+│ ├── bookshop.h # Header file for bookshop class
+│-- 📁 data
+│ ├── books.txt # File storing book records
+│-- 📄 README.md # Project documentation
+│-- 📄 Makefile # Compilation script (if applicable)
 
 bash
 Copy
 Edit
-git clone https://github.com/your-username/bookshop-management-system.git  
-cd bookshop-management-system  
+
+## 🔧 Installation & Setup
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/bookshop-management-system.git  
+   cd bookshop-management-system  
 Compile the program
 
 bash
